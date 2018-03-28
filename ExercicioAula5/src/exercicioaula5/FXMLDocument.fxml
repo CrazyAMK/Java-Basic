@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="365.0" prefWidth="599.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exercicioaula5.FXMLDocumentController">
+   <children>
+      <Label fx:id="lblMensagem" alignment="CENTER" contentDisplay="CENTER" layoutX="207.0" layoutY="67.0" prefHeight="27.0" prefWidth="378.0" text="Aqui vai aparecer a mensagem" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblHora" alignment="CENTER" contentDisplay="CENTER" layoutX="208.0" layoutY="98.0" prefHeight="27.0" prefWidth="378.0" text="Aqui vai aparecer a Hora" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblIdioma" alignment="CENTER" contentDisplay="CENTER" layoutX="208.0" layoutY="136.0" prefHeight="27.0" prefWidth="378.0" text="Aqui vai aparecer o Idioma" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblResolucao" alignment="CENTER" contentDisplay="CENTER" layoutX="207.0" layoutY="173.0" prefHeight="27.0" prefWidth="378.0" text="Aqui vai Aparecer a Resolução" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="175.0" fitWidth="139.0" layoutX="68.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/image2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnClick" layoutX="347.0" layoutY="231.0" mnemonicParsing="false" onAction="#clicouBotao" prefHeight="41.0" prefWidth="152.0" text="Clique em Mim!" />
+      <Button fx:id="btnClick2" layoutX="347.0" layoutY="282.0" mnemonicParsing="false" onAction="#clicouBotao2" prefHeight="41.0" prefWidth="152.0" text="Ou em MIM!" />
+   </children>
+</AnchorPane>
